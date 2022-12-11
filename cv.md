@@ -1,15 +1,12 @@
 # Victoria Volchek
-========================
 
 ## Contacts
 * e-mail: victoriavolcheck@yandex.ru
 * github: Victoria-V-V
-* discord: Victoria-V-V#8224
-========================
+* discord: Victoria-V-V8224
 
 ## About me
 *in progress*
-========================
 
 ## Skills
 * HTML, CSS.
@@ -19,7 +16,6 @@
 * JavaScript и ES6.
 * React.js, react-router, MobX. Сборщики gulp, webpack.
 * Agile, Git, Github.
-========================
 
 ## Code
 ```
@@ -30,7 +26,6 @@ function isDivideBy(number, a, b) {
   return false;
 }
 ``` 
-========================
 
 ## Projects
 [English Flashcards](https://github.com/Victoria-V-V/flashcards-react)
