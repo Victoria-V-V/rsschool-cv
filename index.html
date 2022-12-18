@@ -25,11 +25,11 @@
             <div class="header__info">
                 <nav class="header-nav">
                     <ul class="header-nav__list">
-                        <li><a class="header-nav__link" href="#1">Contacts</a></li>
-                        <li><a class="header-nav__link" href="#2">About</a></li>
-                        <li><a class="header-nav__link" href="#3">Skills</a></li>
-                        <li><a class="header-nav__link" href="#4">Code</a></li>
-                        <li><a class="header-nav__link" href="#5">Projects</a></li>
+                        <li><a class="header-nav__link" href="#about">About</a></li>
+                        <li><a class="header-nav__link" href="#skills">Skills</a></li>
+                        <li><a class="header-nav__link" href="#contacts">Contacts</a></li>
+                        <li><a class="header-nav__link" href="#code">Code</a></li>
+                        <li><a class="header-nav__link" href="#projects">Projects</a></li>
                     </ul>
                 </nav>
                 <div class="header-text">
@@ -40,10 +40,96 @@
         </div>
     </header>
 
+    <div class="main-wrapper">
+        <main class="main">
+
+            <section class="about" id="about">
+                <h2 class="about__title">About me</h2>
+                <div class="about__text">
+                    <p> Recent PhD degree in chemistry.</p>
+                    <p>Seeking to become frontend
+                        developer.</p>
+                </div>
+            </section>
+
+            <section class="code" id="code">
+                <h2 class="code__title">Code example</h2>
+                <div class="code__text">
+                    <pre class="javascript" style="font-family:monospace;"><span style="color: #0000b4; font-weight: bold;">function</span> evenOrOdd<span style="color: #009900;">&#40;</span>number<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+  <span style="color: #0000b4; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>number <span style="color: #339933;">%</span> <span style="color: #CC0000;">2</span> <span style="color: #339933;">==</span> <span style="color: #CC0000;">0</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+    <span style="color: #0000b4; font-weight: bold;">return</span> <span style="color: #3366CC;">'Even'</span><span style="color: #009900;">&#125;</span>
+  <span style="color: #0000b4; font-weight: bold;">else</span> <span style="color: #0000b4; font-weight: bold;">return</span> <span style="color: #3366CC;">'Odd'</span>
+<span style="color: #009900;">&#125;</span></pre>
+                </div>
+            </section>
+
+            <section class="projects" id="projects">
+                <h2 class="projects__title">Projects</h2>
+                <div class="projects__text">
+                    <p><a href="https://github.com/Victoria-V-V/flashcards-react">English Flashcards</a></p>
+                    <p><a href="https://Victoria-V-V.github.io/rsschool-cv/">rsschool-cv</a></p>
+                </div>
+            </section>
+        </main>
 
 
+        <aside class="aside">
+            <div class="contacts" id="contacts">
+                <h2 class="contacts__title">Contacts</h2>
+                <ol class="contacts__list">
+                    <li class="contacts__link"><a href="https://github.com/Victoria-V-V">
+                            <img src="/assets/img/github.png" alt="github-icon">Victoria-V-V</a>
+                    </li>
+                    <li class="contacts__link"><img src="/assets/img/discord.png" alt="discord-icon">Victoria-V-V8224
+                    </li>
+
+                </ol>
+            </div>
+
+            <div class="skills" id="skills">
+                <h2 class="skills__title">Skills</h2>
+                <div class="skills__text">
+                    <ul class="skills_list">
+                        <li> HTML, CSS.</li>
+                        <li>Flexbox, Grid, BEM, SASS</li>
+                        <li>Bootstrap, Figma</li>
+                        <li>JavaScript и ES6</li>
+                        <li>React.js, react-router, MobX</li>
+                        <li>Gulp, webpack</li>
+                        <li>Agile, Git, Github</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="courses" id="courses">
+                <h2 class="courses__title">Courses</h2>
+                <div class="courses__text">
+                    <a href="https://itgirlschool.com/">itgirlschool 2022</a>
+                </div>
+            </div>
+
+            <div class="languages" id="languages">
+                <h2 class="languages__title">Languages</h2>
+                <div class="languages__text">
+                    English B2
+                </div>
+            </div>
+        </aside>
+    </div>
 
 
+    <footer class="footer">
+        <div class="footer__contacts">
+            <a href="https://github.com/Victoria-V-V">
+                <img class="footer__icon-github" src="https://cdn-icons-png.flaticon.com/512/2111/2111425.png"
+                    alt="github-icon"></a>
+        </div>
+        <div class="footer__logo">
+            <a href="https://rs.school/js/">
+                <img class="footer__icon-rs" src="/assets/img/rs_school_js.svg" alt="rs_school-icon"></a>
+        </div>
+        <div class="footer__copy">&#169; 2022</div>
+    </footer>
 </body>
 
 </html>

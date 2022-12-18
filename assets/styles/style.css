@@ -6,19 +6,20 @@ body {
     font-family: 'Michroma', sans-serif;
     font-style: normal;
     font-weight: normal;
+    color: white;
 }
-
 
 a {
     text-decoration: none;
 }
 
+/* Header styles start */
 .header__container {
     display: flex;
     justify-content: space-between;
     max-width: 1000px;
     margin: 0 auto;
-    padding: 0;
+    padding-bottom: 10px;
     background-color: black;
 }
 
@@ -53,6 +54,10 @@ a {
     color: rgb(0, 0, 0);
 }
 
+.header-nav__link:hover {
+    color: white;
+}
+
 .header-text {
     display: flex;
     justify-content: flex-end;
@@ -68,3 +73,85 @@ a {
 .header-text__subtitle {
     color: #fb5501;
 }
+
+/* Header styles end */
+
+/* Main styles start */
+
+.main-wrapper {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 2%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: black;
+}
+
+h2 {
+    color: #fb5501;
+}
+
+.main {
+    padding: 10px;
+}
+
+.code__text {
+    font-size: 16px;
+}
+
+.skills_list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills_list>li {
+    padding-bottom: 5px;
+
+}
+
+.contacts__link>a>img,
+.contacts__link>img {
+    width: 30px;
+    color: white;
+}
+
+.contacts__list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contacts__list>li {
+    display: flex;
+    align-items: center;
+}
+
+.aside {
+    padding-bottom: 20px;
+}
+
+/* Main styles end */
+
+/* Footer styles start */
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fb5501;
+    align-items: center;
+}
+
+.footer__icon-github {
+    width: 80px;
+}
+
+.footer__icon-rs {
+    width: 200px;
+}
+
+/* Footer styles end */
